@@ -16,6 +16,13 @@ var time = choose(100,157,180);
 
 //para a arvore, define uma var global com a variavel var
 global.timealarm = time;
+
+//randomisa a escolha do proximos codigos(choose)
+randomise();
+//cria uma variavel temporaria time, com um valor choose
+//esses valores são o tempo d spawn aleatorio dos colisores
+var timeAr = choose(135,167,193);
+global.timealarmAR = timeAr
 #endregion
 
 

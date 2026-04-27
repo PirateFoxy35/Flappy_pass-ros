@@ -8,6 +8,6 @@ layer_hspeed("BackRefCeuPerto", global.varbackPerto);
 #endregion
 
 //estou ativando o alarm após a variavel global.timealarm
-alarm[0] = global.timealarm;
+alarm[0] = global.timealarmAR;
 
 alarm[1] = global.timealarm;

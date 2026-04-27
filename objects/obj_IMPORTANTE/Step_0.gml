@@ -22,8 +22,8 @@ xisP = choose(56,144,88);
 //to randomisando a proxima escolha
 randomise();
 //estou definindo o valor da variavel tempo para os valores do choose
-time =  choose(100,157,180);
+time =  choose(120,167,193);
 //o global.timealarm vai ser igual a var tempo
-global.timealarm = time;
+global.timealarmAR = time;
 
 
