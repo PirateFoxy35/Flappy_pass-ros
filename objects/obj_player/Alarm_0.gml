@@ -12,5 +12,10 @@ hspeed = 0;
 
 sprite_index = spr_passaro1;
 
+global.pontos = 0;
+
+global.level = 1;
+
+global.perdeu = false;
 //e reiniciando a room
 room_restart();

@@ -27,3 +27,10 @@ time =  choose(120,167,193);
 global.timealarmAR = time;
 
 
+if(global.perdeu = false){
+	var _PN = global.lista_pontos[global.level-1];
+	
+	global.pontos += 0.1;
+	if(global.level < 9){
+		if (global.pontos >= _PN){
+		global.level += 1;}}}

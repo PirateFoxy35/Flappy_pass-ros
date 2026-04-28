@@ -4,6 +4,7 @@ if(caiu == 2) exit
 //a var colidiu vai ser igual a 1
 colidiu = 1;
 
+global.perdeu = true;
 //estou ativando o alarm após 120 frames(2segundos)
 alarm[0] = 120;
 

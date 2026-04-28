@@ -9,7 +9,7 @@ if (colidiu != 1){
 		//congela a animação
 		image_speed = 0;}}
 
-show_debug_message(caiu);
+show_debug_message(global.perdeu);
 
 if( caiu != 1){
 	if(y <= 0){
@@ -19,7 +19,12 @@ if( caiu != 1){
 		vspeed = -7;
 		caiu = 1;}}
 }
+if(colidiu != 1){
+	if (caiu == 0){
+	if (x <= 0){
+		caiu = 1;}}}
 if (caiu != 0){
+	global.perdeu = true;
 	hspeed = -1.6;
 	image_angle += 3;}
 if(caiu == 1){
